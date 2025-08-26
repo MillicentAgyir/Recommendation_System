@@ -109,23 +109,41 @@ Metadata-aware reranking improved Recall@10 on a slice; full hyperparameter tuni
 **Repository Structure**
 .
 ├─ data/
+
 │  ├─ raw/                      # original CSVs
+
 │  ├─ interim/                  # cleaned properties & merged interactions
+
 │  └─ processed/                # train/test splits, matrices, cached sims
+
 ├─ notebooks/
+
 │  ├─ Business & Data Understanding.ipynb
+
 │  ├─ Cleaning & Preprocessing.ipynb
+
 │  ├─ EDA.ipynb
+
 │  └─ Modeling & Evaluation_RecommendationSys.ipynb
+
 ├─ src/
+
 │  ├─ preprocess.py             # cleaning & merge utilities
+
 │  ├─ features.py               # time features, weights, encoders
+
 │  ├─ models.py                 # candidate generation, reranking, similarity
+
 │  ├─ weighting.py              # TF-IDF, BM25 matrix weighting
+
 │  └─ eval.py                   # split, metrics, chunked evaluation
+
 ├─ reports/
+
 │  ├─ figures/                  # exported plots
+
 │  └─ tables/                   # evaluation summaries
+
 └─ README.md
 
 Environment & Setup
