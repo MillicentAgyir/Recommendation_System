@@ -6,7 +6,7 @@ This project builds and evaluates an e-commerce recommendation system from click
 
 Project goal: Recommend items users are most likely to purchase next, and generate actionable insights that inform merchandising and timing strategies.
 
-Business Questions
+**Business Questions**
 
 1. Which items are most frequently viewed and/or purchased?
 
@@ -22,7 +22,7 @@ Business Questions
 
 7. How do personalized recommendations compare with popularity-based ones in offline evaluation?
 
-**Data***
+**Data**
 
 Interactions: view, addtocart, transaction with timestamps and user/item IDs.
 
