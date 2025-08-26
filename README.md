@@ -212,8 +212,3 @@ Some advanced libraries require compilers on Windows; this pipeline avoids them 
 
 Reranker results shown on a slice; full tuning likely yields further gains.
 
-
-
-Contact
-
-Questions or suggestions? Open an issue or reach out to the maintainer.
